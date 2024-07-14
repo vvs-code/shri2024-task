@@ -393,7 +393,7 @@
         </main>;
     }
 
-    window.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
         const root = ReactDOM.createRoot(document.getElementById('app'));
         root.render(
             <>
@@ -401,7 +401,7 @@
                 <Main />
             </>
         );
-    });
+    }, 100);
 </script>
 
 </body>
